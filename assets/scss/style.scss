@@ -62,7 +62,7 @@ pre {
   letter-spacing: normal;
   white-space: pre;
   color: #eee;
-  background: $midnightblue;
+  background: $dim-grey;
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
 
@@ -75,8 +75,9 @@ pre {
 }
 
 code {
-  color: hsl(0, 1%, 67%);
-  background: $dark-grey;
+  // color: hsl(0, 100%, 2%);
+  color : $text;
+  background: $dim-grey;
   border-radius: 3px;
   padding: 0 3px;
   margin: 0 4px;
@@ -109,7 +110,7 @@ a {
   transition-timing-function: ease-out;
 
   &:hover {
-    color: #fff;
+    color: $hover-color;
     text-shadow: 0 0 1px #fff;
   }
 }
@@ -246,7 +247,7 @@ table {
   width: 100%;
   box-sizing: border-box;
   box-shadow: -1px -2px 3px rgba(0, 0, 0, 0.45);
-  background-color: $dark-grey;
+  background-color: $bar-color;
   animation-duration: .3s;
 }
 
